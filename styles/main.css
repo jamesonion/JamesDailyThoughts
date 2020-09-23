@@ -1,0 +1,17 @@
+body {
+  background:lightgray;
+}
+
+ul {
+  list-style-type: none;
+}
+p {
+ font-family:Calibr, sans-serif;
+}
+h3 {
+  font-family: helvetica;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}

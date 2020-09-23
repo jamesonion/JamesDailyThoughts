@@ -4,6 +4,7 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 p {
@@ -27,4 +28,19 @@ h3 {
   margin-right: 0;
   margin-bottom: 0;
   margin-top: 0;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }

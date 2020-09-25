@@ -40,11 +40,9 @@ img {
 nav ul li{
   display: inline-block;
 }
-footer strong {
-  margin-left: 800px;
-}
-footer nav ul {
-  margin-left: 760px;
+footer {
+  display: grid;
+  place-items: center;
 }
 header nav ul{
   font-family: verdana;
@@ -54,6 +52,19 @@ header nav ul{
 header nav ul li h3 a{
   color: pink;
   margin: 0px 20px;
+  padding: 10px;
+}
+.page {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+.sidebar {
+  display: grid;
+  grid-template-columns: min(480px) auto;
+}
+.rightside {
+  padding-top: 5px;
+  padding-left: 10px;
 }
 .subheader {
   background-color: #778899;

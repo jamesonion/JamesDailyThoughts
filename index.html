@@ -11,15 +11,23 @@
       <h1> In the Mind of James </h1>
       <nav>
         <ul>
-          <li><h2><a href="aboutme.html">About Me</a></h2> </li> |
           <div class="dropdown">
-            <button class="dropbtn" name="button"><h2><u>Dream Journal</u></h2></button> |
+            <button class="dropbtn" name="button1">
+              <li><h2><a href="aboutme.html">About Me</a></h2></li>
+            </button>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn" name="button2"><h2><u>Dream Journal</u></h2></button>
             <div class="dropdown-content">
-              <a>September 2020</a>
+              <a href="index.html">September 2020</a>
               <a href="august2020.html">August 2020</a>
             </div>
           </div>
-          <li><h2><a href="contactme.html">Contact Me</a></h2></li>
+          <div class="dropdown">
+            <button class="dropbtn" name="button3">
+              <li><h2><a href="contactme.html">Contact Me</a></h2></li>
+            </button>
+          </div>
         </ul>
       </nav>
     </header>
@@ -89,11 +97,11 @@
 </body>
 </div>
 
-<footer>
-  <strong>Current Month: September, 2020</strong>
+<footer class="page_navigation">
   <nav>
+    <strong>Current Month: September, 2020</strong>
     <ul>
-      <li> <a><i class ="arrow left"></i></a><a>&nbsp;</a></li>
+      <li> <a><i class ="arrow left"/></i></a></li>
       <li><a>September 2020</li></a>,
       <li><a href="august2020.html">August 2020</a></li>
       <li><a href="august2020.html"><i class ="arrow right"></i></a></li>

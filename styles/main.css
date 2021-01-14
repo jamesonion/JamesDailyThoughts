@@ -67,7 +67,6 @@ navigation {
   border: none;
   outline: none;
   transition: 0.4s;
-  display: block;
 }
 .active, .accordion:hover {
   background-color: #a1a1a1;
@@ -79,11 +78,10 @@ navigation {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  display: block;
 }
 .date {
   background-color: white;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   margin-top: 0rem;
   margin-bottom: .25rem;
   font-family: helvetica;
@@ -116,6 +114,11 @@ navigation {
   border: 5px groove #778899;
   margin-bottom: 1rem;
 }
+.container3 {
+  height: 640px;
+  border: 5px groove #778899;
+  margin-bottom: 1rem;
+}
 .cropped {
   object-fit: cover;
   width: 100%;
@@ -142,6 +145,8 @@ header {
 }
 ul {
   list-style-type: none;
+  margin: 0rem;
+  padding: 0rem;
 }
 body {
   background: lightgray;
